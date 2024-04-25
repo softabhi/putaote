@@ -1,0 +1,67 @@
+.search_item{
+    width: 310px;
+    background-color: white;
+    margin-top: 7px; 
+}
+.search_item input{
+    width: 250px;
+    border: none;
+    outline-style: none;
+}
+#map{
+    color: white;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+#notif{
+    color: white;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+#shop{
+    color: white;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.text_white h6{
+    border: 2px solid white;
+    padding: 3px;
+    color: white;
+}
+.search_item button{
+    font-style: none;
+    border: none;
+    outline-style: none;
+    background: none;
+}
+
+@media (min-width:500px) {
+   .search_item{
+      margin-left: 50px;
+      margin-bottom: 5px;
+   }
+
+   #map{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+   
+}
+#notif{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+
+#shop{
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+}

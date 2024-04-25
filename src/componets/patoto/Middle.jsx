@@ -2,10 +2,12 @@ import React from 'react'
 import { FaMobileAlt } from "react-icons/fa";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faBoltLightning, faNewspaper, faBriefcase } from '@fortawesome/free-solid-svg-icons'
+import './middle.css';
+
 
 const Middle = () => {
     return (
-        <div className='container'>
+        <div className='container middle'>
 
             <div className='row'>
 

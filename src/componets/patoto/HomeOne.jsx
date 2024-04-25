@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import './homeone.css';
 import Slider from './Slider';
 import Middle from './Middle';
+import Footer from './Footer';
 
 
 const HomeOne = () => {
@@ -104,6 +105,8 @@ const HomeOne = () => {
             
             <Slider/>
             <Middle/>
+
+            <Footer/>
 
 
         </>
